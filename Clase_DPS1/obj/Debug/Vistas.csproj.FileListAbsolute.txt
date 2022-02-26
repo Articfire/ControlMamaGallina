@@ -1,0 +1,252 @@
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.exe.config
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.exe
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.pdb
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Form1.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.central_admin.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.central_user.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Corte.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Añadir_Tarea.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Historial_corte.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Registro_Inventario.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.login.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Properties.Resources.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.exe.config
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Form1.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.central_admin.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.central_user.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Corte.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Añadir_Tarea.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Historial_corte.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Registro_Inventario.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.login.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Properties.Resources.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Respaldos.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.dll
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.pdb
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.xml
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Juanelo\Downloads\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.exe.config
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Form1.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.central_admin.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.central_user.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Corte.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Añadir_Tarea.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Historial_corte.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Registro_Inventario.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.login.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Properties.Resources.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Respaldos.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Desktop\Clase_DPS1 (1)\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.dll
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.pdb
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.xml
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Respaldos.resources
+C:\Users\Marti\Desktop\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.exe.config
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\bin\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Form1.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.central_admin.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.central_user.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Corte.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Añadir_Tarea.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Historial_corte.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Registro_Inventario.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.login.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Properties.Resources.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.Respaldos.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Desktop\Clase_DPS1 con agregar tarea\Clase_DPS1\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.Form1.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.central_admin.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.central_user.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.Corte.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.Añadir_Tarea.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.Historial_corte.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.Registro_Inventario.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.login.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.Properties.Resources.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.Respaldos.resources
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\Clase_DPS1.exe.config
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\Clase_DPS1.exe
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\Clase_DPS1.pdb
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\ExcelDataReader.dll
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\ExcelDataReader.pdb
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\ExcelDataReader.xml
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\Excel.dll
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\ExcelLibrary.dll
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Marti\Desktop\Clase_DPS1_v6\Clase_DPS1\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.exe.config
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Excel.dll
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.dll
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelLibrary.dll
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.pdb
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.xml
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Form1.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.central_admin.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.central_user.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Corte.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Añadir_Tarea.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Historial_corte.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Registro_Inventario.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.login.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Properties.Resources.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Respaldos.resources
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Downloads\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.exe.config
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Excel.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelLibrary.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Form1.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.central_admin.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.central_user.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Corte.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Añadir_Tarea.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Historial_corte.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Registro_Inventario.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.login.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Properties.Resources.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Respaldos.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.exe.config
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.exe
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.pdb
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Excel.dll
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.dll
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelLibrary.dll
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelNumberFormat.dll
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.pdb
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.xml
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelNumberFormat.xml
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Form1.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.central_admin.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.central_user.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Corte.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Añadir_Tarea.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Lobby1.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Historial_corte.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Registro_Inventario.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.login.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Properties.Resources.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Respaldos.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Salir.resources
+C:\Users\NONI\Desktop\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.LobbyB.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.exe.config
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\Excel.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelLibrary.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Form1.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.central_admin.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.central_user.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Corte.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Añadir_Tarea.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Salir.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.LobbyB.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Lobby1.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Historial_corte.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Registro_Inventario.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.login.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Properties.Resources.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Respaldos.resources
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\Juanelo\Desktop\Clase_DPS1_v6 (1) (4)\Clase_DPS1_v6 (1)\Clase_DPS1\obj\Debug\Clase_DPS1.Eliminar.resources
