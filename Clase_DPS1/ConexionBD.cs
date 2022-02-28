@@ -14,9 +14,15 @@ namespace Clase_DPS1
         SqlDataAdapter adapter;
         SqlDataReader reader;
 
+        /// <summary>
+        /// Credenciales para crear la conección con la base de datos
+        /// </summary>
         public ConexionBD()
         {
-            connectionString = "Data Source=localhost;Initial Catalog = ControlMamaGallina; User ID = sa; Password = controlmamagallina";
+            connectionString = "Data Source=localhost;" +
+                                "Initial Catalog = ControlMamaGallina;" +
+                                "User ID = sa;" +
+                                "Password = controlmamagallina";
             conn = new SqlConnection(connectionString);
 
         }

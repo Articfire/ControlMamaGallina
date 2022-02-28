@@ -18,7 +18,10 @@ namespace Clase_DPS1
             InitializeComponent();
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog = ControlMamaGallina; User ID = sa; Password = controlmamagallina");
+        SqlConnection conn = new SqlConnection("Data Source=localhost;" +
+                                               "Initial Catalog = ControlMamaGallina;" +
+                                               "User ID = sa;" +
+                                               "Password = controlmamagallina");
 
         private void btn_hi_Click(object sender, EventArgs e)
         {
@@ -45,6 +48,12 @@ namespace Clase_DPS1
             v0.Show();
         }
 
+        /// <summary>
+        /// Evento que carga la información de tareas para el
+        /// usuario en dgv_tareas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void central_user_Load(object sender, EventArgs e)
         {
             SqlCommand cmd = new SqlCommand("Select * from Tarea", conn);

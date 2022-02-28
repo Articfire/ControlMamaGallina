@@ -14,7 +14,7 @@ namespace Clase_DPS1
     public partial class Form1 : Form
     {
         int folio = 1, clave2=1;
-        string asunto, detalles, query;
+        string asuntoTarea, detallesTarea, query;
         string clave;
         DateTime fecha;
 
@@ -38,12 +38,12 @@ namespace Clase_DPS1
 
         private void txtbox_asunto_TextChanged(object sender, EventArgs e)
         {
-            asunto = "'" + txtbox_asunto.Text + "'";
+            asuntoTarea = "'" + txtbox_asunto.Text + "'";
         }
 
         private void txtbos_detalles_TextChanged(object sender, EventArgs e)
         {
-            detalles = "'" + txtbos_detalles.Text + "'";
+            detallesTarea = "'" + txtbos_detalles.Text + "'";
         }
 
         private void txtbos_detalles_KeyPress(object sender, KeyPressEventArgs e)
@@ -105,7 +105,7 @@ namespace Clase_DPS1
 
                             fecha = dtp_fecha.Value.Date + dtp_hora.Value.TimeOfDay;
 
-                            query = String.Format("UPDATE Tarea SET Asunto=" + asunto + ", Mensaje=" + detalles + ", Fecha_hora=@DATE WHERE Clave_Tarea=" + clave2);
+                            query = String.Format("UPDATE Tarea SET Asunto=" + asuntoTarea + ", Mensaje=" + detallesTarea + ", Fecha_hora=@DATE WHERE Clave_Tarea=" + clave2);
 
                             SqlCommand cmd = new SqlCommand(query, conexion);
                             cmd.Parameters.AddWithValue("@DATE", fecha);

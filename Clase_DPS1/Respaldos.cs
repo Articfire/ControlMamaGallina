@@ -18,7 +18,10 @@ namespace Clase_DPS1
             InitializeComponent();
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog = ControlMamaGallina; User ID = sa; Password = controlmamagallina");
+        SqlConnection conn = new SqlConnection("Data Source=localhost;" +
+                                               "Initial Catalog = ControlMamaGallina;" +
+                                               "User ID = sa;" +
+                                               "Password = controlmamagallina");
 
         private void btn_respaldo_Click(object sender, EventArgs e)
         {

@@ -15,7 +15,7 @@ namespace Clase_DPS1
     {
 
         int folio = 1, clave2=1;
-        string asunto, detalles, query, clave;
+        string asuntoTarea, detallesTarea, query, clave;
         DateTime fecha;
 
         public Añadir_Tarea()
@@ -43,9 +43,7 @@ namespace Clase_DPS1
             for (int i = 0; i < resultados2.Length; i++)
             {
                 if (txt_asuntos.Text == resultados2[i].ToString())
-                {
                     algo = false;
-                }
             }
             if (algo == true)
             {
@@ -56,20 +54,20 @@ namespace Clase_DPS1
 
                         String query;
 
-                        // Esta parte es para que la tabla de corte tenga un auto incremento en folio.
+                        //Generar incremento automático en el folio de la tarea.
                         query = "SELECT MAX(Clave_Tarea) FROM Tarea";
                         var resultados = bd.Seleccionar(query);
 
                         if (resultados != null && !resultados[0].Equals(DBNull.Value))
-                        {
                             folio = Convert.ToInt32(resultados[0]) + 1;
-                        }
 
                         // En esta parte a fuerzas tenia que usar un query con parametros, asi que lo hice sin mi clase.
                         var conexion = bd.Abrir();
                         fecha = dtp_fecha.Value.Date + dtp_hora.Value.TimeOfDay;
 
-                        query = String.Format("INSERT INTO Tarea VALUES ({0}, {1}, {2}, {3});", folio, asunto, detalles, "@DATE");
+                        query = String.Format("INSERT INTO Tarea VALUES " +
+                                            "({0}, {1}, {2}, {3});",
+                                            folio, asuntoTarea, detallesTarea, "@DATE");
 
                         SqlCommand cmd = new SqlCommand(query, conexion);
                         cmd.Parameters.AddWithValue("@DATE", fecha);
@@ -108,7 +106,7 @@ namespace Clase_DPS1
         private void txt_detalles_TextChanged(object sender, EventArgs e)
         {
             
-            detalles = "'" + txt_detalles.Text + "'";
+            detallesTarea = "'" + txt_detalles.Text + "'";
         }
 
         private void Añadir_Tarea_Load(object sender, EventArgs e)
@@ -123,7 +121,7 @@ namespace Clase_DPS1
 
         private void txt_asuntos_TextChanged(object sender, EventArgs e)
         {
-            asunto = "'" + txt_asuntos.Text + "'";
+            asuntoTarea = "'" + txt_asuntos.Text + "'";
         }
     }
 }

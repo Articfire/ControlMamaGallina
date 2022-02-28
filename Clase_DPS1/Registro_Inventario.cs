@@ -30,7 +30,9 @@ namespace Clase_DPS1
 
         private void btn_aceptar_Click(object sender, EventArgs e)
         {
-            if (txtbox_surtidor.Text != "" && txtbox_total.Text != "" && cmb_area.Text != "")
+            if (txtbox_surtidor.Text != ""
+                && txtbox_total.Text != ""
+                && cmb_area.Text != "")
             {
                 try
                 {
@@ -50,7 +52,9 @@ namespace Clase_DPS1
                     // En esta parte a fuerzas tenia que usar un query con parametros, asi que lo hice sin mi clase.
                     var conexion = bd.Abrir();
 
-                    query = String.Format("INSERT INTO Compra_Producto VALUES ({0}, {1}, {2}, {3}, {4});", folio, "@DATE", total, surtidor, area);
+                    query = String.Format("INSERT INTO Compra_Producto VALUES (" +
+                                          "{0}, {1}, {2}, {3}, {4});",
+                                          folio, "@DATE", total, surtidor, area);
                     SqlCommand cmd = new SqlCommand(query, conexion);
                     cmd.Parameters.AddWithValue("@DATE", fecha);
                     cmd.ExecuteNonQuery();
@@ -72,7 +76,10 @@ namespace Clase_DPS1
                 MessageBox.Show("Favor de llenar los campos vacios");
             }
 
-            SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog = ControlMamaGallina; User ID = sa; Password = controlmamagallina");
+            SqlConnection conn = new SqlConnection("Data Source=localhost;" +
+                                                   "Initial Catalog = ControlMamaGallina;" +
+                                                   "User ID = sa;" +
+                                                   "Password = controlmamagallina");
             SqlCommand cmd2 = new SqlCommand("Select * from Compra_Producto", conn);
             SqlDataAdapter da = new SqlDataAdapter(cmd2);
             DataTable dt = new DataTable();

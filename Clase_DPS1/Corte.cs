@@ -57,7 +57,13 @@ namespace Clase_DPS1
                 // En esta parte a fuerzas tenia que usar un query con parametros, asi que lo hice sin mi clase.
                 var conexion = bd.Abrir();
 
-                query = String.Format("INSERT INTO Corte VALUES ({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18});", folio, "@DATE", (float)toefectivo, (float)bancos, (float)tcaja, (int)b1000, (int)b500, (int)b200, (int)b100, (int)b50, (int)b20, (int)m20, (int)m10, (int)m5, (int)m2, (int)m1, (int)c50, (float)totalgeneral, (float)retiros);
+                query = String.Format("INSERT INTO Corte VALUES (" +
+                                        "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}," +
+                                        "{10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18});",
+                                        folio, "@DATE", (float)toefectivo, (float)bancos, (float)tcaja,
+                                        (int)b1000, (int)b500, (int)b200, (int)b100, (int)b50, (int)b20,
+                                        (int)m20, (int)m10, (int)m5, (int)m2, (int)m1, (int)c50,
+                                        (float)totalgeneral,(float)retiros);
 
                 SqlCommand cmd = new SqlCommand(query, conexion);
                 cmd.Parameters.AddWithValue("@DATE", DateTime.Now);

@@ -24,7 +24,8 @@ namespace Clase_DPS1
                         string query = "Select Usuario, Clave, Tipo from Usuarios where Usuario = '" + User.Text + "' ";
                         Object[] resultados = bd.Seleccionar(query);
 
-                        if (User.Text.Equals(resultados[0].ToString()) && Pass.Text.Equals(resultados[1].ToString()))
+                        if (User.Text.Equals(resultados[0].ToString())
+                            && Pass.Text.Equals(resultados[1].ToString()))
                         {
                             if (resultados[2].ToString().Equals("Administrador"))
                             {
