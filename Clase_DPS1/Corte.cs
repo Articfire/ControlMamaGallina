@@ -8,17 +8,17 @@ namespace Clase_DPS1
     public partial class Corte : Form
     {
 
-        double b1000 =0;
-        double b500 =0;
-        double b200 = 0;
-        double b100 = 0;
-        double b50 = 0;
-        double b20 = 0;
-        double m10 = 0;
-        double m5 = 0;
-        double m2 = 0;
-        double m1 = 0;
-        double c50 = 0;
+        double billete1000 =0;
+        double billete500 =0;
+        double billete200 = 0;
+        double billete100 = 0;
+        double billete50 = 0;
+        double billete20 = 0;
+        double moneda10 = 0;
+        double moneda5 = 0;
+        double moneda2 = 0;
+        double moneda1 = 0;
+        double centavo50 = 0;
         double bancos = 0;
         double entradas = 0;
         double retiros = 0;
@@ -28,7 +28,7 @@ namespace Clase_DPS1
         double totalgeneral = 0;
 
         int folio = 1;
-        int m20 = 0;
+        int moneda20 = 0;
 
         public Corte()
         {
@@ -61,8 +61,8 @@ namespace Clase_DPS1
                                         "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}," +
                                         "{10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18});",
                                         folio, "@DATE", (float)toefectivo, (float)bancos, (float)tcaja,
-                                        (int)b1000, (int)b500, (int)b200, (int)b100, (int)b50, (int)b20,
-                                        (int)m20, (int)m10, (int)m5, (int)m2, (int)m1, (int)c50,
+                                        (int)billete1000, (int)billete500, (int)billete200, (int)billete100, (int)billete50, (int)billete20,
+                                        (int)moneda20, (int)moneda10, (int)moneda5, (int)moneda2, (int)moneda1, (int)centavo50,
                                         (float)totalgeneral,(float)retiros);
 
                 SqlCommand cmd = new SqlCommand(query, conexion);
@@ -84,7 +84,7 @@ namespace Clase_DPS1
         {
             try
             {
-                b500 = Convert.ToInt32(bi500.Text);
+                billete500 = Convert.ToInt32(bi500.Text);
 
             }
             catch (Exception) { }
@@ -94,7 +94,7 @@ namespace Clase_DPS1
         {
             try
             {
-                b200 = Convert.ToInt32(bi200.Text);
+                billete200 = Convert.ToInt32(bi200.Text);
 
             }
             catch (Exception) { }
@@ -104,7 +104,7 @@ namespace Clase_DPS1
         {
             try
             {
-                b100 = Convert.ToInt32(bi100.Text);
+                billete100 = Convert.ToInt32(bi100.Text);
 
             }
             catch (Exception) { }
@@ -114,7 +114,7 @@ namespace Clase_DPS1
         {
             try
             {
-                b50 = Convert.ToInt32(bi50.Text);
+                billete50 = Convert.ToInt32(bi50.Text);
 
             }
             catch (Exception) { }
@@ -124,7 +124,7 @@ namespace Clase_DPS1
         {
             try
             {
-                b20 = Convert.ToInt32(bi20.Text);
+                billete20 = Convert.ToInt32(bi20.Text);
 
             }
             catch (Exception) { }
@@ -134,7 +134,7 @@ namespace Clase_DPS1
         {
             try
             {
-                m10 = Convert.ToInt32(mo10.Text);
+                moneda10 = Convert.ToInt32(mo10.Text);
 
             }
             catch (Exception) { }
@@ -144,7 +144,7 @@ namespace Clase_DPS1
         {
             try
             {
-                m5 = Convert.ToInt32(mo5.Text);
+                moneda5 = Convert.ToInt32(mo5.Text);
 
             }
             catch (Exception) { }
@@ -154,7 +154,7 @@ namespace Clase_DPS1
         {
             try
             {
-                m2 = Convert.ToInt32(mo2.Text);
+                moneda2 = Convert.ToInt32(mo2.Text);
 
             }
             catch (Exception) { }
@@ -164,7 +164,7 @@ namespace Clase_DPS1
         {
             try
             {
-                m1 = Convert.ToInt32(mo1.Text);
+                moneda1 = Convert.ToInt32(mo1.Text);
 
             }
             catch (Exception) { }
@@ -174,7 +174,7 @@ namespace Clase_DPS1
         {
             try
             {
-                c50 = Convert.ToInt32(ce50.Text);
+                centavo50 = Convert.ToInt32(ce50.Text);
 
             }
             catch (Exception) { }
@@ -184,7 +184,7 @@ namespace Clase_DPS1
         {
             try
             {
-                b1000 = Convert.ToInt32(bi1000.Text);
+                billete1000 = Convert.ToInt32(bi1000.Text);
 
             }
             catch (Exception) { }
@@ -295,113 +295,113 @@ namespace Clase_DPS1
         {
             if (bi1000.Text != "")
             {
-                b1000 = Convert.ToDouble(bi1000.Text);
-                b1000 = b1000 * 1000;
+                billete1000 = Convert.ToDouble(bi1000.Text);
+                billete1000 = billete1000 * 1000;
             }
             else
             {
-                b1000 = 0;
+                billete1000 = 0;
             }
 
 
             if (bi500.Text != "")
             {
-                b500 = Convert.ToDouble(bi500.Text);
-                b500 = b500 * 500;
+                billete500 = Convert.ToDouble(bi500.Text);
+                billete500 = billete500 * 500;
             }
             else
             {
-                b500 = 0;
+                billete500 = 0;
             }
 
 
             if (bi200.Text != "")
             {
-                b200 = Convert.ToDouble(bi200.Text);
-                b200 = b200 * 200;
+                billete200 = Convert.ToDouble(bi200.Text);
+                billete200 = billete200 * 200;
             }
             else
             {
-                b200 = 0;
+                billete200 = 0;
             }
 
             if (bi100.Text != "")
             {
-                b100 = Convert.ToDouble(bi100.Text);
-                b100 = b100 * 100;
+                billete100 = Convert.ToDouble(bi100.Text);
+                billete100 = billete100 * 100;
             }
             else
             {
-                b100 = 0;
+                billete100 = 0;
             }
 
             if (bi50.Text != "")
             {
-                b50 = Convert.ToDouble(bi50.Text);
-                b50 = b50 * 50;
+                billete50 = Convert.ToDouble(bi50.Text);
+                billete50 = billete50 * 50;
 
             }
             else
             {
-                b50 = 0;
+                billete50 = 0;
             }
             if (bi20.Text != "")
             {
-                b20 = Convert.ToDouble(bi20.Text);
-                b20 = b20 * 20;
+                billete20 = Convert.ToDouble(bi20.Text);
+                billete20 = billete20 * 20;
             }
             else
             {
-                b20 = 0;
+                billete20 = 0;
             }
 
             if (mo10.Text != "")
             {
-                m10 = Convert.ToDouble(mo10.Text);
-                m10 = m10 * 10;
+                moneda10 = Convert.ToDouble(mo10.Text);
+                moneda10 = moneda10 * 10;
             }
             else
             {
-                m10 = 0;
+                moneda10 = 0;
             }
 
             if (mo5.Text != "")
             {
-                m5 = Convert.ToDouble(mo5.Text);
-                m5 = m5 * 5;
+                moneda5 = Convert.ToDouble(mo5.Text);
+                moneda5 = moneda5 * 5;
             }
             else
             {
-                m5 = 0;
+                moneda5 = 0;
             }
 
             if (mo2.Text != "")
             {
-                m2 = Convert.ToDouble(mo2.Text);
-                m2 = m2 * 2;
+                moneda2 = Convert.ToDouble(mo2.Text);
+                moneda2 = moneda2 * 2;
             }
             else
             {
-                m2 = 0;
+                moneda2 = 0;
             }
 
             if (mo1.Text != "")
             {
-                m1 = Convert.ToDouble(mo1.Text);
+                moneda1 = Convert.ToDouble(mo1.Text);
             }
             else
             {
-                m1 = 0;
+                moneda1 = 0;
             }
 
             if (ce50.Text != "")
             {
-                c50 = Convert.ToDouble(ce50.Text);
-                c50 = c50 * 0.5;
+                centavo50 = Convert.ToDouble(ce50.Text);
+                centavo50 = centavo50 * 0.5;
             }
             else
             {
-                c50 = 0;
+                centavo50 = 0;
             }
 
             if (Totalcaja.Text != "")
@@ -438,7 +438,7 @@ namespace Clase_DPS1
             }
 
 
-            toefectivo = b1000 + b500 + b200 + b100 + b50 + b20 + m10 + m5 + m2 + m1 + c50;
+            toefectivo = billete1000 + billete500 + billete200 + billete100 + billete50 + billete20 + moneda10 + moneda5 + moneda2 + moneda1 + centavo50;
             totalgeneral = toefectivo + bancos - retiros + entradas;
             tbancos.Text = "Total Bancos: " + Validaciones.va.FormatearDoubleEnDobleDecimal(bancos);
             tefectivo.Text = "Total Efectivo: " + Validaciones.va.FormatearDoubleEnDobleDecimal(toefectivo);
