@@ -22,6 +22,11 @@ namespace Clase_DPS1
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Metodo que elimina la tarea seleccionada previamente.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             clave = central_admin.clave;

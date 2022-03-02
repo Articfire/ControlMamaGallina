@@ -44,6 +44,10 @@ namespace Clase_DPS1
 
         }
 
+        /// <summary>
+        /// Metodo que exporta informacion de los cortes diarios a excel.
+        /// </summary>
+        /// <param name="grd">El data grid view de la informacion de cortes diarios</param>
         private void Exportar_Excel_v2(DataGridView grd)
         {
             copyAlltoClipboard(grd);

@@ -26,6 +26,12 @@ namespace Clase_DPS1
             Salir x = new Salir();
             x.Show();
         }
+
+        /// <summary>
+        /// Metodo que se encarga de llenar la tabla con los datos
+        /// de las tareas en la base de datos.
+        /// </summary>
+        /// <param name="f"></param>
         public void addformulario(Form f)
         {
             if (this.panel1.Controls.Count > 0)

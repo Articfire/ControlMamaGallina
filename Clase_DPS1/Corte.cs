@@ -37,6 +37,13 @@ namespace Clase_DPS1
 
         ConexionBD bd = new ConexionBD();
 
+        /// <summary>
+        /// Metodo que realiza el corte diario y lo manda a la base de datos
+        /// cuando el evento de click en el boton de Confirmar es disparado.
+        /// Se debe hacer despues de hacer click en aceptar.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button3_Click(object sender, EventArgs e)
         {
             try
@@ -286,6 +293,13 @@ namespace Clase_DPS1
             Validaciones.va.Validanumlongittud(ce50, e);
         }
 
+        /// <summary>
+        /// Metodo que hace los calculos de todas las cantidades y totales
+        /// en el Corte Diario, pero solo hace los calculos, no la insercion
+        /// a la base de datos.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();

@@ -22,6 +22,11 @@ namespace Clase_DPS1
 
         }
 
+        /// <summary>
+        /// Metodo para salir de la aplicacion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();

@@ -28,6 +28,11 @@ namespace Clase_DPS1
 
         ConexionBD bd = new ConexionBD();
 
+        /// <summary>
+        /// Metodo que inserta datos a la base de datos acerca de compras al proveedor
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_aceptar_Click(object sender, EventArgs e)
         {
             if (txtbox_surtidor.Text != ""

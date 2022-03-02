@@ -62,6 +62,12 @@ namespace Clase_DPS1
             this.Close();
         }
 
+        /// <summary>
+        /// Metodo que se encarga de consultar la base de datos, buscar
+        /// la tarea seleccionada, y traerse esa tarea para editarla.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form1_Load(object sender, EventArgs e)
         {
             clave = central_admin.clave;
@@ -77,6 +83,12 @@ namespace Clase_DPS1
             
         }
 
+        /// <summary>
+        /// Metodo que se encarga de confirmar la modificacion de
+        /// la tarea seleccionada previamente, con los datos nuevos.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_editar_Click(object sender, EventArgs e)
         {
             try

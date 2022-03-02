@@ -13,6 +13,13 @@ namespace Clase_DPS1
 
         ConexionBD bd = new ConexionBD();
 
+        /// <summary>
+        /// Metodo que se encarga de verificar las credenciales de acceso
+        /// e ingresar al cliente al sistema, y dependiendo del tipo de acceso,
+        /// darle acceso limitado si es un empleado o ilimitado si es el administrador.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_ingresar_Click(object sender, EventArgs e)
         {
             if (User.Text != "" && Pass.Text != "")

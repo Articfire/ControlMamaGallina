@@ -17,7 +17,13 @@ namespace Clase_DPS1
             InitializeComponent();
         }
 
-
+        /// <summary>
+        /// Reenvia al cliente a la seccion de respaldos de la informacion
+        /// de Cortes Diarios, donde se respalda la informacion a un 
+        /// archivo de excel.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_respaldos_Click(object sender, EventArgs e)
         {
             this.Close();

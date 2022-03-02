@@ -33,19 +33,27 @@ namespace Clase_DPS1
             this.Close();
         }
 
+        /// <summary>
+        /// Evento disparado cuando el boton de agregar es clickeado,
+        /// el cual crea una tarea en la base de datos. Primero se asegura 
+        /// que el asunto insertado no se repita, y maneja el auto-incremento 
+        /// del ID y el calculo de la fecha para insertarse a la base de datos.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_agregar_Click(object sender, EventArgs e)
         {
             query = "Select Asunto From Tarea";
             var resultados2 = bd.Seleccionar(query);
 
-            bool algo = true;
+            bool el_asunto_no_se_repite = true;
 
             for (int i = 0; i < resultados2.Length; i++)
             {
                 if (txt_asuntos.Text == resultados2[i].ToString())
-                    algo = false;
+                    el_asunto_no_se_repite = false;
             }
-            if (algo == true)
+            if (el_asunto_no_se_repite)
             {
                 if (txt_asuntos.Text != "" && txt_detalles.Text != "")
                 {
@@ -114,6 +122,11 @@ namespace Clase_DPS1
 
         }
 
+        /// <summary>
+        /// Valida la longitud del valor del campo de texto del Asunto.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txt_asuntos_KeyPress(object sender, KeyPressEventArgs e)
         {
             Validaciones.va.ValidatxtLongitud(txt_asuntos, e);
