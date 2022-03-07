@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file E_Tarea.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Editar Tarea.
+ * @brief Archivo que maneja la interfaz y la edicipon de tareas.
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,6 +18,10 @@ using System.Data.SqlClient;
 
 namespace Clase_DPS1
 {
+    /**
+     * @title Form1
+     * @brief Clase que maneja la forma principal de la interfaz de usuario y los eventos de edición de tareas.
+     */
     public partial class Form1 : Form
     {
         int folio = 1, clave2=1;
@@ -18,7 +29,10 @@ namespace Clase_DPS1
         string clave;
         DateTime fecha;
 
-
+        /**
+         * @title Form1
+         * @brief Método constructor de la clase.
+         * */
         public Form1()
         {
             InitializeComponent();
@@ -68,6 +82,14 @@ namespace Clase_DPS1
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+
+        /**
+         * @title Form1_load.
+         * @brief Método que se encarga de consultar la vase de datos, buscar la tarea seleccionada y
+         * traer dicha tarea para editarla
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         */
         private void Form1_Load(object sender, EventArgs e)
         {
             clave = central_admin.clave;
@@ -89,6 +111,13 @@ namespace Clase_DPS1
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+
+        /**
+         * @title btn_editar_Click.
+         * @brief Método que se encarga de confirmar la modificación de la tarea seleccionada previamente con los datos nuevos.
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         */
         private void btn_editar_Click(object sender, EventArgs e)
         {
             try

@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file central_admin.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Central Administrador.
+ * @brief Archivo que maneja la interfaz de la central de administración.
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,13 +18,21 @@ using System.Data.SqlClient;
 
 namespace Clase_DPS1
 {
+    /**
+     * @title central_admin
+     * @brief Clase donde se lleva el control de la central de administración.
+     */
     public partial class central_admin : Form
     {
 
+        /**
+         * @title central_admin
+         * @brief Método constructor de la clase.
+         * */
         public central_admin()
         {
             InitializeComponent();
-            
+
         }
 
         SqlConnection conn = new SqlConnection("Data Source=DESKTOP-MGAVK7S\\SQLSERVEREXPRESS;" +
@@ -25,11 +40,16 @@ namespace Clase_DPS1
                                                 "User ID = sa;" +
                                                 "Password = iamsuperuser");
 
-        public static string clave="1";
+        public static string clave = "1";
 
         /// <summary>
         /// Método para refrescar la información en dgv_tareas
         /// </summary>
+
+        /**
+         * @title refrescar
+         * @brief Método que refresca la información desplegada desde la base de datos.
+         * */
         public void refrescar()
         {
             SqlCommand cmd = new SqlCommand("Select * from Tarea", conn);
@@ -69,13 +89,13 @@ namespace Clase_DPS1
         {
             Añadir_Tarea v4 = new Añadir_Tarea();
             v4.Show();
-            
+
         }
 
         private void btn_e_Click(object sender, EventArgs e)
         {
             Form1 v5 = new Form1();
-            
+
             v5.Show();
         }
 
@@ -85,6 +105,13 @@ namespace Clase_DPS1
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+
+        /**
+         * @title central_admin_Load
+         * @brief Evento que carga la información de tareas para el administrador en dgv_tareas.
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         */
         public void central_admin_Load(object sender, EventArgs e)
         {
             SqlCommand cmd = new SqlCommand("Select * from Tarea", conn);

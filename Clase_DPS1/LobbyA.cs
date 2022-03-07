@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file LobbyA.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Lobby A.
+ * @brief Archivo que se encarga del Lobby de administrador.
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,6 +17,10 @@ using System.Windows.Forms;
 
 namespace Clase_DPS1
 {
+    /**
+     * @title Lobby1
+     * @brief Clase que se encarga de cargar el lobby de parte del administrador.
+     */
     public partial class Lobby1 : Form
     {
         public Lobby1()
@@ -33,6 +44,12 @@ namespace Clase_DPS1
         /// las tareas en la base de datos.
         /// </summary>
         /// <param name="f"></param>
+        
+        /**
+         * @title addformulario.
+         * @brief Método que llena la tabla con los datos de las tareas en la base de datos.
+         * @param f Comprobar la existencia del usuario
+         */
         public void addformulario(Form f)
         {
             if (this.panel1.Controls.Count > 0)

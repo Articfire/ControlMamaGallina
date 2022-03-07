@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file Eliminar.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Eliminar Tarea.
+ * @brief Archivo que se encarga de eliminar una tarea seleccionada.
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,6 +17,10 @@ using System.Windows.Forms;
 
 namespace Clase_DPS1
 {
+    /**
+     * @title Eliminar
+     * @brief Clase que se encarga de la eliminación de tareas de la base de datos.
+     */
     public partial class Eliminar : Form
     {
         int clave2 = 1;
@@ -17,6 +28,10 @@ namespace Clase_DPS1
 
         ConexionBD bd = new ConexionBD();
 
+        /**
+         * @title Eliminar
+         * @brief Método constructor.
+         */
         public Eliminar()
         {
             InitializeComponent();
@@ -27,6 +42,13 @@ namespace Clase_DPS1
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+
+        /**
+         * @title button1_Click.
+         * @brief Método que elimina la tarea previamente seleccionada.
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         */
         private void button1_Click(object sender, EventArgs e)
         {
             clave = central_admin.clave;

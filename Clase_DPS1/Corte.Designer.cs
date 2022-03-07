@@ -1,5 +1,16 @@
-﻿namespace Clase_DPS1
+﻿/**
+ * @file Corte.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Corte de caja.
+ * @brief Realizar el corte de caja y registrarlo en la base de datos.
+ */
+namespace Clase_DPS1
 {
+    /**
+     * @title Corte
+     * @brief clase principal donde se realiza el corte de caja.
+     */
     partial class Corte
     {
         /// <summary>
@@ -11,6 +22,12 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        
+        /**
+         * @title Dispose
+         * @brief Limpia cualquier recurso que está siendo usado
+         * @param disposin Verdadero si los recursos manejados deben ser desechado; de lo contrario, falso.
+         */
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))

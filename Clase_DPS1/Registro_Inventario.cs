@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file Registro_Inventario.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Registro de inventario.
+ * @brief Archivo que se encarga de la interfaz de usuario y los eventos del registro del inventario.
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,6 +18,10 @@ using System.Data.SqlClient;
 
 namespace Clase_DPS1
 {
+    /**
+     * @title Registro_Inventario
+     * @brief Clase que se encarga del registro de iventario.
+     */
     public partial class Registro_Inventario : Form
     {
 
@@ -33,6 +44,13 @@ namespace Clase_DPS1
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+
+        /**
+         * @title btn_aceptar_Click.
+         * @brief Método que inserta información a la base de datos acerca de compras al proveedor.
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         */
         private void btn_aceptar_Click(object sender, EventArgs e)
         {
             if (txtbox_surtidor.Text != ""
@@ -122,6 +140,12 @@ namespace Clase_DPS1
             catch (Exception) { }
         }
 
+        /**
+         * @title Registro_Inventario_Load.
+         * @brief Método que carga los registros de la base de datos acerca de compras al proveedor.
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         */
         private void Registro_Inventario_Load(object sender, EventArgs e)
         {
             SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog = ControlMamaGallina; User ID = sa; Password = controlmamagallina");

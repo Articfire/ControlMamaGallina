@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file Respaldos.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Respaldos.
+ * @brief Archivo que se encarga de la interfaz de usuario y los eventos que realizan respaldos a Microsoft Excel.
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,6 +18,10 @@ using System.Windows.Forms;
 
 namespace Clase_DPS1
 {
+    /**
+     * @title Respaldos
+     * @brief Clase que maneja la creación de respaldos de la base de datos.
+     */
     public partial class Respaldos : Form
     {
         public Respaldos()
@@ -48,6 +59,12 @@ namespace Clase_DPS1
         /// Metodo que exporta informacion de los cortes diarios a excel.
         /// </summary>
         /// <param name="grd">El data grid view de la informacion de cortes diarios</param>
+        
+        /**
+         * @title Exportar_Excel_v2
+         * @brief Método que exporta información de los cortes diarios a Microsoft Excel.
+         * @param grd El data grid view de la información de cortes diarios.
+         */
         private void Exportar_Excel_v2(DataGridView grd)
         {
             copyAlltoClipboard(grd);

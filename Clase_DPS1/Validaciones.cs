@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file Validaciones.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Validaciones.
+ * @brief Archivo que se encarga de las validaciones en los campos de texto.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
