@@ -35,10 +35,10 @@ namespace Clase_DPS1
 
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-MGAVK7S\\SQLSERVEREXPRESS;" +
+        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-LAA976E;" +
                                                 "Initial Catalog = ControlMamaGallina;" +
                                                 "User ID = sa;" +
-                                                "Password = iamsuperuser");
+                                                "Password = controlmamagallina");
 
         public static string clave = "1";
 

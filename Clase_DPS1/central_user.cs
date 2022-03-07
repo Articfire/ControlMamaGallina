@@ -18,10 +18,10 @@ namespace Clase_DPS1
             InitializeComponent();
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-MGAVK7S\\SQLSERVEREXPRESS;" +
+        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-LAA976E;" +
                                                "Initial Catalog = ControlMamaGallina;" +
                                                "User ID = sa;" +
-                                               "Password = iamsuperuser");
+                                               "Password = controlmamagallina");
 
         private void btn_hi_Click(object sender, EventArgs e)
         {

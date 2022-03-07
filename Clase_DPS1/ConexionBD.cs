@@ -35,10 +35,10 @@ namespace Clase_DPS1
          * */
         public ConexionBD()
         {
-            connectionString = "Data Source=DESKTOP-MGAVK7S\\SQLSERVEREXPRESS;" +
+            connectionString = "Data Source=DESKTOP-LAA976E;" +
                                 "Initial Catalog = ControlMamaGallina;" +
                                 "User ID = sa;" +
-                                "Password = iamsuperuser";
+                                "Password = controlmamagallina";
             conn = new SqlConnection(connectionString);
 
         }
