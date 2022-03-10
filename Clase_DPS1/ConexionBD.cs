@@ -3,7 +3,7 @@
  * @version 1.6
  * @author Hurtado, Martin.
  * @title Central Administrador.
- * @brief Archivo que maneja la conexión con la bnase de datos.
+ * @brief Archivo que maneja la conexión con la base de datos.
  */
 using System;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace Clase_DPS1
 {
     /**
      * @title ConexionBD
-     * @brief Clase qeu se encarga de realizar la conexión del sistema a la base de datos.
+     * @brief Clase que se encarga de realizar la conexión del sistema a la base de datos.
      */
     class ConexionBD
     {
@@ -25,9 +25,6 @@ namespace Clase_DPS1
         SqlDataAdapter adapter;
         SqlDataReader reader;
 
-        /// <summary>
-        /// Credenciales para crear la conección con la base de datos
-        /// </summary>
 
         /**
          * @title ConexionBD
@@ -35,7 +32,7 @@ namespace Clase_DPS1
          * */
         public ConexionBD()
         {
-            connectionString = "Data Source=DESKTOP-LAA976E;" +
+            connectionString = "Data Source=TACOSMASH34;" +
                                 "Initial Catalog = ControlMamaGallina;" +
                                 "User ID = sa;" +
                                 "Password = controlmamagallina";

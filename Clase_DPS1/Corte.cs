@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file ConexionBD.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Central Administrador.
+ * @brief Archivo que contiene la interfaz y la clase que realizan el corte de caja diario
+ */
+using System;
 using System.Windows.Forms;
 using System.Globalization;
 using System.Data.SqlClient;
@@ -37,13 +44,13 @@ namespace Clase_DPS1
 
         ConexionBD bd = new ConexionBD();
 
-        /// <summary>
-        /// Metodo que realiza el corte diario y lo manda a la base de datos
-        /// cuando el evento de click en el boton de Confirmar es disparado.
-        /// Se debe hacer despues de hacer click en aceptar.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /**
+         * @title Corte diario
+         * @brief Método que realiza el corte diario y lo manda a la base de datos
+         * cuando el evento de click en el boton de Confirmar es disparado.
+         * Se debe hacer despues de hacer click en aceptar.
+         */
+    
         private void button3_Click(object sender, EventArgs e)
         {
             try

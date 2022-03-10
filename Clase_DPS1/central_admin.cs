@@ -40,10 +40,6 @@ namespace Clase_DPS1
 
         public static string clave = "1";
 
-        /// <summary>
-        /// Método para refrescar la información en dgv_tareas
-        /// </summary>
-
         /**
          * @title refrescar
          * @brief Método que refresca la información desplegada desde la base de datos.

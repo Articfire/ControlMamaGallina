@@ -3,7 +3,7 @@
  * @version 1.6
  * @author Hurtado, Martin.
  * @title Login.
- * @brief Archivo que se encarga del login de usuario.
+ * @brief Archivo que se encarga validar las credenciales para el login de usuario.
  */
 using System;
 using System.Windows.Forms;
@@ -15,7 +15,7 @@ namespace Clase_DPS1
     {
         /**
          * @title login
-         * @brief Clase que se encarga de del login de usuario.
+         * @brief Interfaz del login donde el usuario introduce sus credenciales de acceso.
          */
         public login()
         {
@@ -24,13 +24,6 @@ namespace Clase_DPS1
 
         ConexionBD bd = new ConexionBD();
 
-        /// <summary>
-        /// Metodo que se encarga de verificar las credenciales de acceso
-        /// e ingresar al cliente al sistema, y dependiendo del tipo de acceso,
-        /// darle acceso limitado si es un empleado o ilimitado si es el administrador.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
 
         /**
          * @tite btn_ingresar_Click

@@ -38,11 +38,7 @@ namespace Clase_DPS1
             x.Show();
         }
 
-        /// <summary>
-        /// Metodo que se encarga de llenar la tabla con los datos
-        /// de las tareas en la base de datos.
-        /// </summary>
-        /// <param name="f"></param>
+ 
 
         /**
          * @title addformulario.

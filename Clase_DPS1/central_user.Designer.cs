@@ -3,14 +3,14 @@
     partial class central_user
     {
         /// <summary>
-        /// Required designer variable.
+        /// Declaración de variable de diseño requerida.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Vaciar memoria que ya no esta utilizando.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">Verdadero si los recursos en uso ya no se requieren; si no, falso.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
