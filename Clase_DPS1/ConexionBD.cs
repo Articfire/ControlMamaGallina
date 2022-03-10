@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file ConexionBD.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Central Administrador.
+ * @brief Archivo que maneja la conexión con la bnase de datos.
+ */
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -6,6 +13,10 @@ using System.Windows.Forms;
 
 namespace Clase_DPS1
 {
+    /**
+     * @title ConexionBD
+     * @brief Clase qeu se encarga de realizar la conexión del sistema a la base de datos.
+     */
     class ConexionBD
     {
         string connectionString;
@@ -17,12 +28,17 @@ namespace Clase_DPS1
         /// <summary>
         /// Credenciales para crear la conección con la base de datos
         /// </summary>
+
+        /**
+         * @title ConexionBD
+         * @brief Método constructor de la clase.
+         * */
         public ConexionBD()
         {
-            connectionString = "Data Source=DESKTOP-MGAVK7S\\SQLSERVEREXPRESS;" +
+            connectionString = "Data Source=DESKTOP-LAA976E;" +
                                 "Initial Catalog = ControlMamaGallina;" +
                                 "User ID = sa;" +
-                                "Password = iamsuperuser";
+                                "Password = controlmamagallina";
             conn = new SqlConnection(connectionString);
 
         }
@@ -38,6 +54,11 @@ namespace Clase_DPS1
             conn.Close();
         }
 
+        /**
+         * @title Seleccionar
+         * @brief Método utilizado para obtener la información de la base de datos.
+         * @param query Parámetro que se utiliza como línea de comando SQL.
+         * */
         public Object[] Seleccionar(string query)
         {
             try
@@ -76,6 +97,11 @@ namespace Clase_DPS1
             throw new NotImplementedException();
         }
 
+        /**
+         * @title Insertar
+         * @brief Método utilizado para insdertar información en la base de datos.
+         * @param query Parámetro que se utiliza como línea de comando SQL.
+         * */
         public void Insertar(string query)
         {
             conn.Open();
@@ -89,6 +115,11 @@ namespace Clase_DPS1
             conn.Close();
         }
 
+        /**
+         * @title Actualizar
+         * @brief Método utilizado para obtener la información de la base de datos y actualizar su despliegue.
+         * @param query Parámetro que se utiliza como línea de comando SQL.
+         * */
         public void Actualizar(string query)
         {
             conn.Open();
@@ -102,6 +133,11 @@ namespace Clase_DPS1
             conn.Close();
         }
 
+        /**
+         * @title Eliminar
+         * @brief Método utilizado para eliminar un registro de la base de datos
+         * @param query Parámetro que se utiliza como línea de comando SQL.
+         * */
         public void Eliminar(string query)
         {
 
@@ -115,21 +151,5 @@ namespace Clase_DPS1
                 conn.Close();
             }
         }
-
-        /*
-        public Object[] CargarDGV(string query)
-        {
-            conn.Open();
-            command = new SqlCommand(query, conn);
-            adapter = new SqlDataAdapter(command);
-            adapter.Fill(datatable);
-
-            command.Dispose();
-            conn.Close();
-
-            return datatable;
-        }
-        */
-
     }
 }

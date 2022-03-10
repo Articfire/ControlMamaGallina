@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file Añadir_Tarea.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Añadir Tarea.
+ * @brief Archivo que maneja la interfaz y la creación de nuevas tareas.
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,13 +18,21 @@ using System.Windows.Forms;
 
 namespace Clase_DPS1
 {
+    /**
+     * @title Añadir_Tarea
+     * @brief Clase donde se lleva a cabo la creación de nuevas tareas.
+     */
     public partial class Añadir_Tarea : Form
     {
 
-        int folio = 1, clave2=1;
+        int folio = 1, clave2 = 1;
         string asuntoTarea, detallesTarea, query, clave;
         DateTime fecha;
 
+        /**
+         * @title Añadir_Tarea
+         * @brief Método constructor de la clase.
+         * */
         public Añadir_Tarea()
         {
             InitializeComponent();
@@ -29,18 +44,18 @@ namespace Clase_DPS1
 
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
-            
+
             this.Close();
         }
 
-        /// <summary>
-        /// Evento disparado cuando el boton de agregar es clickeado,
-        /// el cual crea una tarea en la base de datos. Primero se asegura 
-        /// que el asunto insertado no se repita, y maneja el auto-incremento 
-        /// del ID y el calculo de la fecha para insertarse a la base de datos.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
+        /**
+         * @title btn_agregar_Click
+         * @brief Evento disparado cuando el botón de agregar es presionado, el cual crea
+         * una tarea en al base de datos.
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         */
         private void btn_agregar_Click(object sender, EventArgs e)
         {
             query = "Select Asunto From Tarea";
@@ -106,14 +121,26 @@ namespace Clase_DPS1
 
         }
 
+        /**
+         * @title txt_detalles_KeyPress
+         * @brief Evento que realiza la validación del campo detalles.
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         * */
         private void txt_detalles_KeyPress(object sender, KeyPressEventArgs e)
         {
             Validaciones.va.ValidatxtLongitudT(txt_detalles, e);
         }
 
+        /**
+         * @title txt_detalles_TextChanged
+         * @brief Comprueba cambior sealizados en el campo detalles.
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         * */
         private void txt_detalles_TextChanged(object sender, EventArgs e)
         {
-            
+
             detallesTarea = "'" + txt_detalles.Text + "'";
         }
 
@@ -122,11 +149,12 @@ namespace Clase_DPS1
 
         }
 
-        /// <summary>
-        /// Valida la longitud del valor del campo de texto del Asunto.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /**
+         * @tite txt_asuntos_KeyPress
+         * @brief Valida la longitud del valor del campo de texto del Asunto
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         * */
         private void txt_asuntos_KeyPress(object sender, KeyPressEventArgs e)
         {
             Validaciones.va.ValidatxtLongitud(txt_asuntos, e);

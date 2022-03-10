@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * @file login.cs
+ * @version 1.6
+ * @author Hurtado, Martin.
+ * @title Login.
+ * @brief Archivo que se encarga del login de usuario.
+ */
+using System;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
@@ -6,6 +13,10 @@ namespace Clase_DPS1
 {
     public partial class login : Form
     {
+        /**
+         * @title login
+         * @brief Clase que se encarga de del login de usuario.
+         */
         public login()
         {
             InitializeComponent();
@@ -20,6 +31,15 @@ namespace Clase_DPS1
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+
+        /**
+         * @tite btn_ingresar_Click
+         * @brief Método que se encarga de verificar las credenciales de acceso ew ingresar
+         * al cliente al sistema y, dependiendo del tipo de acceso, darle acceso limitado si
+         * es un empleado o ilimitado si es el administrador.
+         * @param sender objeto que disparó el evento
+         * @param e tipo de delegado
+         */
         private void btn_ingresar_Click(object sender, EventArgs e)
         {
             if (User.Text != "" && Pass.Text != "")
