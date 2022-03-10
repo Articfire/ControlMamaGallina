@@ -18,10 +18,8 @@ namespace Clase_DPS1
             InitializeComponent();
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-MGAVK7S\\SQLSERVEREXPRESS;" +
-                                               "Initial Catalog = ControlMamaGallina;" +
-                                               "User ID = sa;" +
-                                               "Password = iamsuperuser");
+        ConexionBD bd = new ConexionBD();
+        SqlConnection conn;
 
         private void btn_hi_Click(object sender, EventArgs e)
         {
@@ -56,12 +54,15 @@ namespace Clase_DPS1
         /// <param name="e"></param>
         private void central_user_Load(object sender, EventArgs e)
         {
+            conn = bd.Abrir();
+
             SqlCommand cmd = new SqlCommand("Select * from Tarea", conn);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
             dgv_tareas.DataSource = dt;
-            conn.Close();
+
+            bd.Cerrar(conn);
         }
 
         private void dgv_tareas_CellContentClick(object sender, DataGridViewCellEventArgs e)

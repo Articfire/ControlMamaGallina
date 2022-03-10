@@ -81,16 +81,14 @@ namespace Clase_DPS1
                 MessageBox.Show("Favor de llenar los campos vacios");
             }
 
-            SqlConnection conn = new SqlConnection("Data Source=localhost;" +
-                                                   "Initial Catalog = ControlMamaGallina;" +
-                                                   "User ID = sa;" +
-                                                   "Password = controlmamagallina");
+            SqlConnection conn = bd.Abrir();
             SqlCommand cmd2 = new SqlCommand("Select * from Compra_Producto", conn);
             SqlDataAdapter da = new SqlDataAdapter(cmd2);
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
-            conn.Close();
+            bd.Cerrar(conn);
+
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)
@@ -124,13 +122,13 @@ namespace Clase_DPS1
 
         private void Registro_Inventario_Load(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog = ControlMamaGallina; User ID = sa; Password = controlmamagallina");
+            SqlConnection conn = bd.Abrir();
             SqlCommand cmd = new SqlCommand("Select * from Compra_Producto", conn);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
-            conn.Close();
+            bd.Cerrar(conn);
         }
 
 

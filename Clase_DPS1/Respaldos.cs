@@ -18,10 +18,8 @@ namespace Clase_DPS1
             InitializeComponent();
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=localhost;" +
-                                               "Initial Catalog = ControlMamaGallina;" +
-                                               "User ID = sa;" +
-                                               "Password = controlmamagallina");
+        ConexionBD bd = new ConexionBD();
+        SqlConnection conn;
 
         private void btn_respaldo_Click(object sender, EventArgs e)
         {
@@ -73,12 +71,15 @@ namespace Clase_DPS1
 
         private void Respaldos_Load(object sender, EventArgs e)
         {
+            conn = bd.Abrir();
+            
             SqlCommand cmd = new SqlCommand("Select * from Corte", conn);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
-            conn.Close();
+
+            bd.Cerrar(conn);
         }
     }
 }
