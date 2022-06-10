@@ -24,62 +24,65 @@ namespace Clase_DPS1
 
         ConexionBD bd = new ConexionBD();
 
+        public bool isUserLoginValid(Object[] resultados, string user_field, string password_field)
+        {
+            if (user_field == "" && password_field == "")
+            {
+                MessageBox.Show("Favor de llenar los campos vacios.");
+                return false;
+            }
+
+            if (resultados == null)
+            {
+                MessageBox.Show("El nombre de usuario no existe.");
+                return false;
+            }
+
+            if (!(user_field.Equals(resultados[0]) && password_field.Equals(resultados[1])))
+            {
+                MessageBox.Show("El usuario y la contraseña no concuerdan.");
+                return false;
+            }
+            return true;
+        }
 
         /**
-         * @tite btn_ingresar_Click
-         * @brief Método que se encarga de verificar las credenciales de acceso ew ingresar
+         * @tite Login
+         * @brief Método que se encarga de verificar las credenciales de acceso el ingresar
          * al cliente al sistema y, dependiendo del tipo de acceso, darle acceso limitado si
          * es un empleado o ilimitado si es el administrador.
-         * @param sender objeto que disparó el evento
-         * @param e tipo de delegado
          */
-        private void btn_ingresar_Click(object sender, EventArgs e)
+        public void Login()
         {
-            if (User.Text != "" && Pass.Text != "")
+            // resultados[0] es Usuario, resultados[1] es Clave, resultados[2] es Tipo
+            string query = "Select Usuario, Clave, Tipo from Usuarios where Usuario = '" + User.Text + "' ";
+
+            object[] resultados = bd.Seleccionar(query);
+
+            bool condicionSalida;
+            condicionSalida = isUserLoginValid(resultados, User.Text, Pass.Text);
+
+            if (!condicionSalida) return;
+
+            if (resultados[2].Equals("Administrador"))
             {
-                if (User.Text.Length > 0)
-                {
-                    try
-                    {
-                        string query = "Select Usuario, Clave, Tipo from Usuarios where Usuario = '" + User.Text + "' ";
-                        Object[] resultados = bd.Seleccionar(query);
-
-                        if (User.Text.Equals(resultados[0].ToString())
-                            && Pass.Text.Equals(resultados[1].ToString()))
-                        {
-                            if (resultados[2].ToString().Equals("Administrador"))
-                            {
-                                Lobby1 v1 = new Lobby1();
-                                MessageBox.Show("Bienvenida Aministrador");
-                                this.Hide();
-                                v1.Show();
-                            }
-                            else
-                            {
-                                LobbyB v1 = new LobbyB();
-                                MessageBox.Show("Bienvenid@ emplead@");
-                                this.Hide();
-                                v1.Show();
-                            }
-                        }
-                        else
-                        {
-                            MessageBox.Show("Usuario o contraseña incorrectos");
-                            return;
-                        }
-                    }
-                    catch (Exception)
-                    {
-                        MessageBox.Show("Usuario o contraseña incorrectos");
-                    }
-
-                }
+                Lobby1 v1 = new Lobby1();
+                MessageBox.Show("Bienvenida Administradora");
+                this.Hide();
+                v1.Show();
             }
             else
             {
-                MessageBox.Show("Favor de llenar los campos vacios");
+                LobbyB v1 = new LobbyB();
+                MessageBox.Show("Bienvenid@ emplead@");
+                this.Hide();
+                v1.Show();
             }
-            
+        }
+
+        public void btn_ingresar_Click(object sender, EventArgs e)
+        {
+            Login();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -116,5 +119,5 @@ namespace Clase_DPS1
             Validaciones.va.ValidatxtLongitudL(Pass, e);
         }
     }
-    }
+}
 

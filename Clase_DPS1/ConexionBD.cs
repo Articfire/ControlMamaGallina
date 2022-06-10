@@ -17,7 +17,7 @@ namespace Clase_DPS1
      * @title ConexionBD
      * @brief Clase que se encarga de realizar la conexión del sistema a la base de datos.
      */
-    class ConexionBD
+    public class ConexionBD
     {
         string connectionString;
         SqlConnection conn;
@@ -56,14 +56,14 @@ namespace Clase_DPS1
          * @brief Método utilizado para obtener la información de la base de datos.
          * @param query Parámetro que se utiliza como línea de comando SQL.
          * */
-        public Object[] Seleccionar(string query)
+        public object[] Seleccionar(string query)
         {
             try
             {
                 conn.Open();
                 command = new SqlCommand(query, conn);
                 reader = command.ExecuteReader();
-                Object[] values = new Object[reader.FieldCount];
+                object[] values = new object[reader.FieldCount];
 
                 if (reader.HasRows)
                 {
@@ -75,7 +75,7 @@ namespace Clase_DPS1
                 }
                 else
                 {
-                    return null;
+                    return new object[] {};
                 }
                 command.Dispose();
                 conn.Close();
@@ -85,7 +85,7 @@ namespace Clase_DPS1
             catch (Exception)
             {
 
-                return null;
+                return new object[] {};
             }
         }
 

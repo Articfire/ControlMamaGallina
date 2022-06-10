@@ -17,7 +17,7 @@ namespace Clase_DPS1
     
     public class Validaciones
     {
-        bool dec = false, dec2 = false;
+        bool dec = false;
         public readonly static Validaciones va = new Validaciones();
 
         public void cerrartodo(object sender, EventArgs e)
@@ -154,7 +154,7 @@ namespace Clase_DPS1
                     e.Handled = false;
                     if (e.KeyChar == '.')
                     {
-                        dec2 = true;
+                        dec = true;
                     }
                 }
                 else
