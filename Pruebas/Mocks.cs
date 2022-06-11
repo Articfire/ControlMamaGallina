@@ -17,7 +17,7 @@ namespace Clase_DPS1
             this.numberOfCalls = 0;
         }
 
-        public object[] Select(string query)
+        public object[] Seleccionar(string query)
         {
             this.wasCalled = true;
             this.numberOfCalls += 1;
