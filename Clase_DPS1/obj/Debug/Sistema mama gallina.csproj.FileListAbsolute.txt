@@ -1,0 +1,4 @@
+C:\Users\Marti\Desktop\ControlMamaGallina\Clase_DPS1\obj\Debug\Clase_DPS1.exe
+C:\Users\Marti\Desktop\ControlMamaGallina\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\Marti\Desktop\ControlMamaGallina\Clase_DPS1\obj\Debug\Sistema mama gallina.csproj.AssemblyReference.cache
+C:\Users\Marti\Desktop\ControlMamaGallina\Clase_DPS1\obj\Debug\Sistema mama gallina.csproj.SuggestedBindingRedirects.cache

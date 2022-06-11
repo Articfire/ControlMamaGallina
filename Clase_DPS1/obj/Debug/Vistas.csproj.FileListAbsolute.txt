@@ -358,3 +358,5 @@ C:\Users\admin\source\repos\ControlMamaGallina\ControlMamaGallina\Clase_DPS1\obj
 C:\Users\admin\source\repos\ControlMamaGallina\ControlMamaGallina\Clase_DPS1\obj\Debug\Vistas.csproj.CopyComplete
 C:\Users\admin\source\repos\ControlMamaGallina\ControlMamaGallina\Clase_DPS1\obj\Debug\Clase_DPS1.exe
 C:\Users\admin\source\repos\ControlMamaGallina\ControlMamaGallina\Clase_DPS1\obj\Debug\Clase_DPS1.pdb
+C:\Users\Marti\Desktop\ControlMamaGallina\Clase_DPS1\bin\Debug\nunit.framework.dll
+C:\Users\Marti\Desktop\ControlMamaGallina\Clase_DPS1\bin\Debug\nunit.framework.xml
