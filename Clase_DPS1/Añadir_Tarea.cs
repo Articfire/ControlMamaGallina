@@ -25,8 +25,8 @@ namespace Clase_DPS1
     public partial class Añadir_Tarea : Form
     {
 
-        int folio = 1, clave2 = 1;
-        string asuntoTarea, detallesTarea, query, clave;
+        int folio = 1;
+        string asuntoTarea, detallesTarea, query;
         DateTime fecha;
 
         /**

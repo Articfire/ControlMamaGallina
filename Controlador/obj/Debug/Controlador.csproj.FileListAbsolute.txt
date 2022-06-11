@@ -1,0 +1,17 @@
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\Controlador.dll
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\Controlador.pdb
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\Excel.dll
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\ExcelDataReader.dll
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\ExcelLibrary.dll
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\ExcelDataReader.pdb
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\ExcelDataReader.xml
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\obj\Debug\Controlador.csproj.AssemblyReference.cache
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\obj\Debug\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\obj\Debug\Controlador.csproj.CopyComplete
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\obj\Debug\Controlador.dll
+C:\Users\Marti\Desktop\ControlMamaGallina\Controlador\obj\Debug\Controlador.pdb

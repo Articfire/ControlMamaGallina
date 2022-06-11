@@ -24,7 +24,7 @@ namespace Clase_DPS1
      */
     public partial class Form1 : Form
     {
-        int folio = 1, clave2=1;
+        int clave2=1;
         string asuntoTarea, detallesTarea, query;
         string clave;
         DateTime fecha;
