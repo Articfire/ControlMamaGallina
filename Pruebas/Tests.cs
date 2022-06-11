@@ -36,5 +36,20 @@ namespace Clase_DPS1
             // Assert
             Assert.AreEqual(true, isValid);
         }
+
+        [Test]
+        public void Seleccionar_was_called()
+        {
+            // Arrange
+            ConexionBD bd = new ConexionBD();
+            ConexionDBMock dbmock = new ConexionDBMock();
+            string query = "Select Usuario, Clave, Tipo from Usuarios where Usuario = 'adminm'";
+            object[] empty_array = new object[] { };
+            // Act
+            dbmock.Seleccionar(query);
+            // Assert
+            Assert.IsTrue(dbmock.wasCalled);
+            Assert.AreNotEqual(0, dbmock.numberOfCalls);
+        }
     }
 }

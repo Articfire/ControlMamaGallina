@@ -32,7 +32,7 @@ namespace Clase_DPS1
          * */
         public ConexionBD()
         {
-            connectionString = "Data Source=TACOSMASH34;" +
+            connectionString = "Data Source=DESKTOP-MGAVK7S\\SQLSERVEREXPRESS;" +
                                 "Initial Catalog = ControlMamaGallina;" +
                                 "User ID = sa;" +
                                 "Password = controlmamagallina";

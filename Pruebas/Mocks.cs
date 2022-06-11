@@ -6,19 +6,21 @@ using System.Threading.Tasks;
 
 namespace Clase_DPS1
 {
-    public class ConexionDBMock
+    public class ConexionDBMock : ConexionBD
     {
-        bool wasCalled;
-        int numberOfCalls;
+        public bool wasCalled;
+        public int numberOfCalls;
 
         public ConexionDBMock()
         {
-            this.wasCalled = true;
+            this.wasCalled = false;
             this.numberOfCalls = 0;
         }
 
-        public static object[] Seleccionar(string query)
+        public object[] Seleccionar(string query)
         {
+            this.wasCalled = true;
+            this.numberOfCalls += 1;
             return new object[] {};
         }
     }
