@@ -50,7 +50,7 @@ namespace Clase_DPS1
          * cuando el evento de click en el boton de Confirmar es disparado.
          * Se debe hacer despues de hacer click en aceptar.
          */
-    
+        
         private void button3_Click(object sender, EventArgs e)
         {
             try
