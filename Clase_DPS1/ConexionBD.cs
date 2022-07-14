@@ -20,7 +20,7 @@ namespace Clase_DPS1
     public class ConexionBD
     {
         string connectionString;
-        SqlConnection conn;
+        public SqlConnection conn;
         SqlCommand command;
         SqlDataAdapter adapter;
         SqlDataReader reader;
